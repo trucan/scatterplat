@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+svg{
+    background-color: rgb(190, 224, 162);
+}
+
+.bar{
+    background-color: #2B7A78;
+    border-color: #2B7A78;
+    fill: #2B7A78;
+}
+
+.dot:hover{
+    fill: antiquewhite;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend{
+    margin-top: 5px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+#title{
+    font-size: 28px;
+    fill: black;
+    text-transform: uppercase;
+}
